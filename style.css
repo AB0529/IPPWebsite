@@ -1,0 +1,16 @@
+footer {
+    position: relative;
+    background-color: #007bff;
+    color: white;
+  }
+
+  .grid-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+  }
+  
+  .footimage {
+  margin: auto;
+  width: 20%;
+  }
