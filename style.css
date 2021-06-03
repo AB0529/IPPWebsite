@@ -1,4 +1,197 @@
-<<<<<<< HEAD
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+header h1 {
+    position: absolute;
+    padding: 4px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav ul {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+    font-size: 100%;
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 100%;
+}
+
+a {
+    text-align: center;
+    color: lime;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+}
+
+a:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+img {
+    width: 100%
+}
+
+span {
+    display: inline-block;
+    padding: 5px 15px;
+    color: white;
+    transition: 0.5s;
+    vertical-align: top;
+}
+
+li {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 100%;
+}
+
+#Page {
+    background-image: auto;
+}
+
+p {
+    color: white;
+    transition: 0.5s;
+    vertical-align: top;
+    font-size: 32px;
+    margin-top: 20;
+    text-align: center;
+}
+
+span a {
+    font-size: 100%;
+}
+
+li img {
+    width: 150px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: auto;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.fact {
+    border-top: 2px solid rgb(222, 222, 222);
+    border-bottom: 2px solid rgb(222, 222, 222);
+    padding-top: 6px;
+    margin-top: 0%;
+    padding-bottom: 6px;
+    font-size: 200%;
+    color: white;
+}
+
+p a {
+    font-size: 100%
+}
+
+.p-center {
+    text-align: center;
+}
+
+button {
+    width: 24%;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
 * {
     margin: 0px;
@@ -125,7 +318,8 @@
 .loading {
     display: flex;
     justify-content: center;
-=======
+}
+
 .article {
     text-align: center;
 }
@@ -154,7 +348,6 @@
     padding: 20px;
     font-size: 30px;
     text-align: center;
->>>>>>> ca433ca0995886c62480c6aaa95cf0eaa15f9a95
 }
 
 footer {
