@@ -16,12 +16,12 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: rgb(166, 196, 230);
+    background-color: rgba(255, 214, 31, 0.788);
     padding: 10px;
 }
 
 .grid-item {
-    background-color: rgba(129, 216, 243, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
@@ -30,7 +30,7 @@
 
 footer {
     position: relative;
-    background-color: #ffd620ab;
+    background-color: #007bff;
     color: white;
 }
 
