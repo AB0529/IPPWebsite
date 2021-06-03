@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
 * {
     margin: 0px;
@@ -124,6 +125,36 @@
 .loading {
     display: flex;
     justify-content: center;
+=======
+.article {
+    text-align: center;
+}
+
+.articlee {
+    font-size: 15px;
+    text-align: center;
+}
+
+.wallpaper {
+    border-style: solid;
+    border-radius: 11px;
+    padding-bottom: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(166, 196, 230);
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+>>>>>>> ca433ca0995886c62480c6aaa95cf0eaa15f9a95
 }
 
 footer {
