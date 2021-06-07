@@ -6,26 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPP Website</title>
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-size: 17px;">
+        <div class="container-fluid">
+            <div class="aa-brand">
+                <a class="navbar-brand border-bottom border-warning" href="#">
+                    <img class="aa-logo rounded-circle" src="images/shine.png" alt="inovation logo" />
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 border-bottom border-warning">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="requirements.html">Requirements</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Years
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="year1.html">Year 1</a></li>
+                            <li><a class="dropdown-item" href="year2.html">Year 2</a></li>
+                        </ul>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <br>
     <br>
     <h1>The Create Task</h1>
     <br>
     <br>
-    <p>In the Create performance task, you will design and implement a program that might solve a problem, enable innovation, explore personal interests, or express creativity. You are allowed to collaborate with your partner(s) on the development of the
+    <p style="color: #3d3d3d;">In the Create performance task, you will design and implement a program that might solve a problem, enable innovation, explore personal interests, or express creativity. You are allowed to collaborate with your partner(s) on the development of the
         program only. The written response and the video that you submit for this performance task must be completed individually, without any collaboration with your partner(s) or anyone else.</p>
     <br>
     <br>
 
     <video width="320" height="240" controls>
-      <source src="CreateTask.mp4" type="video/mp4">
+      <source src="./CreateTask.mp4" type="video/mp4">
       <source src="movie.ogg" type="video/ogg">
     Your browser does not support the video tag.
     </video>
 
+    <footer class="TGLD-footer">
+        <div class="grid-box-TGLD ">
+            <div class="item-TGLD"> <br> <br>
+                <h3>Academics</h3>
+                <a href="https://worcesterschools.org/academics/course-catalog/" target="_blank">Course Catalog</a> <br> <br>
+                <a href="https://worcesterschools.org/academics/career-pathways/" target="_blank">Career Pathways</a> <br> <br>
+                <a href="https://worcesterschools.org/academics/program-of-studies/" target="_blank">Program of Studys</a> <br> <br>
+            </div>
+            <div class="item-TGLD"> <br> <br>
+                <h3>Student Support</h3>
+                <a href="https://worcesterschools.org/student-support/guidance/" target="_blank">Guidance</a> <br> <br>
+                <a href="https://worcesterschools.org/student-support/school-student-safety/bullying-prevention/" target="_blank">Bullying Prevention</a> <br> <br>
+                <a href="https://worcesterschools.org/health-center-hotline/" target="_blank">Heath Center Hotline</a> <br> <br>
+            </div>
+            <div class="item-TGLD"> <br> <br>
+                <h3>About</h3>
+                <a href="https://worcesterschools.org/about/budget/" target="_blank">Budget</a> <br> <br>
+                <a href="https://worcesterschools.org/about/superintendent/" target="_blank">Superintendent</a> <br> <br>
+                <a href="https://worcesterschools.org/contact/" target="_blank">Contact</a> <br> <br>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
