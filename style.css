@@ -350,12 +350,22 @@ button {
     text-align: center;
 }
 
-.grid-box {
+.TGLD-footer {
+    position: relative;
+    background-color: #007bff;
+    color: white;
+}
+
+.grid-box-TGLD {
     display: grid;
     grid-template-columns: auto auto auto;
 }
 
-.footimage {
+.footimage-TGLD {
     margin: auto;
     width: 20%;
+}
+
+.item-TGLD a {
+    color: #ffc107;
 }
