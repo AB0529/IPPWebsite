@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="./style.css" />
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </head>
 
@@ -17,7 +18,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-size: 17px;">
         <div class="container-fluid">
             <div class="aa-brand">
-                <a class="navbar-brand border-bottom border-warning" href="#">
+                <a class="navbar-brand" href="#">
                     <img class="aa-logo rounded-circle" src="images/shine.png" alt="inovation logo" />
                 </a>
             </div>
@@ -46,42 +47,39 @@
         </div>
     </nav>
 
-    <!-- Slider main container -->
-    <div class="swiper-container">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-                <img src="Group.jpg" height="300" width="300" />
-            </div>
-            <div class="swiper-slide">
-                <img src="helping.jpg" height="300" width="300" />
-            </div>
-            <div class="swiper-slide">
-                <img src="Chris.jpg" height="300" width="300" />
-            </div>
-            <div class="swiper-slide">
-                <img src="MrsBerry.jpg" height="300" width="300" />
-            </div>
-            <div class="swiper-slide">
-                <img src="Andrea.jpg" height="300" width="300" />
-            </div>
-
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
-    </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active border-bottom border-4 border-warning">
+                <img src="Group.jpg" class="d-block" alt="group-picture">
+            </div>
+            <div class="carousel-item border-bottom border-4 border-warning">
+                <img src="helping.jpg" class="d-block" alt="helping">
+            </div>
+            <div class="carousel-item border-bottom border-4 border-warning">
+                <img src="Chris.jpg" class="d-block" alt="my-boy-christopfer-wistofer">
+            </div>
+            <div class="carousel-item border-bottom border-4 border-warning">
+                <img src="Andrea.jpg" class="d-block" alt="idiot">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
     </div>
 
     <!--First Section For about inovation pathways-->
-    <div class="section">
+    <div class="section border-bottom border-4 border-warning">
         <div class="container">
             <div class="content-section">
                 <div class="title">
@@ -100,7 +98,7 @@
                         <a href="contact.html">Reach Out</a>
                     </div>
                 </div>
-                <div class="social">
+                <div class="social justify-content-center">
                     <a href="https://facebook.com/worcesterschools"><i class="fab fa-facebook-f"></i
             ></a>
                     <a href="https://mobile.twitter.com/worcesterpublic"><i class="fab fa-twitter"></i
@@ -114,7 +112,7 @@
             </div>
         </div>
     </div>
-    <footer class="TGLD-footer">
+    <footer class="TGLD-footer" style="margin-top: 40px;">
         <div class="grid-box-TGLD ">
             <div class="item-TGLD"> <br> <br>
                 <h3>Academics</h3>
