@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-size: 17px;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <div class="aa-brand">
                 <a class="navbar-brand" href="#">
@@ -28,11 +28,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 border-bottom border-warning">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="active nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="requirements.html">Requirements</a>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Requirements
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="OSHA.html">OSHA</a></li>
+                            <li><a class="dropdown-item" href="Internship.html">Internship</a></li>
+                            <li><a class="dropdown-item" href="Capstone.html">Capstone</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,6 +49,7 @@
                             <li><a class="dropdown-item" href="year1.html">Year 1</a></li>
                             <li><a class="dropdown-item" href="year2.html">Year 2</a></li>
                         </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -86,13 +94,13 @@
                     <h1>About Us</h1>
                 </div>
                 <div class="content">
-                    <h3 class="title">What Inovation Pathways is about?</h3>
+                    <h3 class="title"><strong>What Inovation Pathways is about?</strong></h3>
                     <p>
-                        Inovation Pathways is a worcester public schools hosted program that allows kids interested in trades such as Computer Science and IT, Construction, Health Care, And Business have an oppurtinity to learn and explore there carrers.
+                        Inovation Pathways is a Worcester Public Schools hosted program that allows kids interested in trades such as Computer Science, IT, Construction, Health Care, and Business have an oppurtinity to learn and explore their careers.
                     </p>
-                    <h3 class="title">What are the benefits of inovation pathways?</h3>
+                    <h3 class="title"><strong>What are the benefits of inovation pathways?</strong></h3>
                     <p>
-                        Benefits of the Inovation Pathways Program are that you have an oppurtunity to learn more about a trade or carrer you are interested in and get real world experience through internships.
+                        Benefits of the Inovation Pathways Program are that you have an oppurtunity to learn more about a trade or career you are interested in and get real world experience through internships.
                     </p>
                     <div class="button">
                         <a href="contact.html">Reach Out</a>
@@ -108,32 +116,57 @@
                 </div>
             </div>
             <div class="image-section">
-                <img src="images/shine.png" alt="inovation logo" />
+                <!-- <img src="images/shine.png" alt="inovation logo" /> -->
+                <video height="512" width="512" controls src="ipp website video.mp4" />
             </div>
         </div>
     </div>
-    <footer class="TGLD-footer" style="margin-top: 40px;">
-        <div class="grid-box-TGLD ">
-            <div class="item-TGLD"> <br> <br>
-                <h3>Academics</h3>
-                <a href="https://worcesterschools.org/academics/course-catalog/" target="_blank">Course Catalog</a> <br> <br>
-                <a href="https://worcesterschools.org/academics/career-pathways/" target="_blank">Career Pathways</a> <br> <br>
-                <a href="https://worcesterschools.org/academics/program-of-studies/" target="_blank">Program of Studys</a> <br> <br>
-            </div>
-            <div class="item-TGLD"> <br> <br>
-                <h3>Student Support</h3>
-                <a href="https://worcesterschools.org/student-support/guidance/" target="_blank">Guidance</a> <br> <br>
-                <a href="https://worcesterschools.org/student-support/school-student-safety/bullying-prevention/" target="_blank">Bullying Prevention</a> <br> <br>
-                <a href="https://worcesterschools.org/health-center-hotline/" target="_blank">Heath Center Hotline</a> <br> <br>
-            </div>
-            <div class="item-TGLD"> <br> <br>
-                <h3>About</h3>
-                <a href="https://worcesterschools.org/about/budget/" target="_blank">Budget</a> <br> <br>
-                <a href="https://worcesterschools.org/about/superintendent/" target="_blank">Superintendent</a> <br> <br>
-                <a href="https://worcesterschools.org/contact/" target="_blank">Contact</a> <br> <br>
+</body>
+
+<footer class="text-center text-lg-start bg-light text-muted">
+    <section class="">
+        <div class="container text-center text-md-start mt-0">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Innovation Pathways
+                    </h6>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h5>Academics</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="https://worcesterschools.org/academics/course-catalog/" target="_blank">Course Catalog</a></li>
+                        <li><a class="text-muted" href="https://worcesterschools.org/academics/career-pathways/" target="_blank">Career Pathways</a></li>
+                        <li><a class="text-muted" href="https://worcesterschools.org/academics/program-of-studies/" target="_blank">Program of Studys</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="https://worcesterschools.org/student-support/guidance/" target="_blank">Guidance</a></li>
+                        <li><a class="text-muted" href="https://worcesterschools.org/student-support/school-student-safety/bullying-prevention/" target="_blank">Bullying Prevention</a></li>
+                        <li><a class="text-muted" href="https://worcesterschools.org/health-center-hotline/" target="_blank">Health Center Hotline</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="https://worcesterschools.org/about/budget/" target="_blank">Budget</a></li>
+                        <li><a class="text-muted" href="https://worcesterschools.org/about/superintendent/">Superintendent</a></li>
+                        <li><a class="text-muted" href="https://worcesterschools.org/contact/">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </footer>
-</body>
+    </section>
+
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        ©
+        <script>
+            document.write(new Date().getFullYear())
+        </script> All Rights Reserved
+    </div>
+</footer>
 
 </html>

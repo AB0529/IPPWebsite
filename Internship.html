@@ -1,15 +1,22 @@
+<!DOCTYPE html>
 <html>
 
-<head> </head>
-<title>Contact form Desing</title>
-<link href="contact.css" rel="stylesheet"></link>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-<link rel="stylesheet" href="./style.css" />
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<script src="./script.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>IPPWebsite</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </head>
+<style>
+    #Page {
+        background-image: linear-gradient(to right, purple, pink);
+    }
+</style>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -27,9 +34,16 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="requirements.html">Requirements</a>
+
+                    <li class="nav-item dropdown">
+                        <a class="active nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Requirements
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="OSHA.html">OSHA</a></li>
+                            <li><a class="dropdown-item" href="Internship.html">Internship</a></li>
+                            <li><a class="dropdown-item" href="Capstone.html">Capstone</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,30 +53,23 @@
                             <li><a class="dropdown-item" href="year1.html">Year 1</a></li>
                             <li><a class="dropdown-item" href="year2.html">Year 2</a></li>
                         </ul>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container" style="width: 50%;">
-        <form id="contact" action="./includes/handle_interest_form.php" method="post">
-            <h3>Ask Questions</h3>
-            <h4>Contact us with any questions you have and we will respond</h4>
-            <fieldset>
-                <input placeholder="Your name" type="text" tabindex="1" required autofocus name="name">
-            </fieldset>
-            <fieldset>
-                <input placeholder="Your Email Address" type="email" tabindex="2" required name="email_to">
-            </fieldset>
-            <textarea placeholder="Type your message here...." tabindex="5" required name="message"></textarea>
-            </fieldset>
-            <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-            </fieldset>
-        </form>
-    </div>
+    <script src="script.js"></script>
+    <div id="Page">
+        <h1 class="fact">Interships</h1>
+        <img id="osha-img" src="https://miro.medium.com/max/3000/1*t8sE0zYy7a3csAtqCeYULg.jpeg" height="100%" width="75%">
+        <p id="requirement">
+            Once you are nearing the end of your first year in Inovatoin Pathways you will have opportunities throughout the year for internships. You are required in your first year of Inovation Pathways to take a internship during the summer. Also these internship
+            can also pay you. These internships will only be available for the people who are taking that career. For example if you are in the health career course all of the internships for health and nursing will only apply to those students taking
+            that course. All of these internships can be found in the google classroom also Mr. Weymouth will also send emails to students about internship opportunities because they are limited spots so you would want to sign up real quick so you can
+            get an interview and get started with your intership. For the second year there will also be a lot of opportunities like the first for internships. This internships will all be found in the google classroom and Mr. Weymouth will also notify
+            students about internships. But for the second it's different because in the second year you have 2 options either do a internship or do a capstone project for the summer.</p>
 </body>
-
 <footer class="text-center text-lg-start bg-light text-muted">
     <section class="">
         <div class="container text-center text-md-start mt-0">

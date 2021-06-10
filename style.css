@@ -22,34 +22,9 @@ header h1 {
     color: white;
 }
 
-nav ul {
-    width: auto;
-    float: right;
-    margin-top: 8px;
-    font-size: 100%;
-}
-
-nav li {
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 100%;
-}
-
-a {
-    text-align: center;
-    color: lime;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
-}
-
-a:hover {
-    color: blue;
-    transition: 0.5s;
-}
-
-img {
-    width: 100%
+.navbar {
+    height: 100%;
+    background: linear-gradient(-40deg, white, white 25%, #007BFF calc(25% + 1px), #007BFF 100%);
 }
 
 span {
@@ -71,29 +46,8 @@ li {
     background-image: auto;
 }
 
-p {
-    color: white;
-    transition: 0.5s;
-    vertical-align: top;
-    font-size: 32px;
-    margin-top: 20;
-    text-align: center;
-}
-
-span a {
-    font-size: 100%;
-}
-
-li img {
-    width: 150px;
-}
-
 .mySlides {
     display: none
-}
-
-img {
-    vertical-align: middle;
 }
 
 .slideshow-container {
@@ -250,6 +204,7 @@ button {
 
 .active {
     background-color: white;
+    /* filter: blur(10px); */
 }
 
 .carousel-control-prev-icon {
@@ -276,6 +231,7 @@ button {
     font-family: sans-serif;
     font-size: 18px;
     line-height: 1.5;
+    text-align: left;
 }
 
 .content-section .content .button {
@@ -374,23 +330,28 @@ button {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: rgb(166, 196, 230);
-    padding: 10px;
+    /* background-color: rgb(166, 196, 230); */
+    background-color: #007BFF;
+    padding: 5px;
 }
 
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
+    /* background-color: white; */
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    color: #FF477E;
 }
 
 .grid-item p {
     color: #343434;
+    font-size: 20px;
 }
 
 .et-title {
+    margin-top: 50px;
     padding-top: 10px;
     font-size: 2em;
     /* width: 50%; */
@@ -418,4 +379,60 @@ button {
 
 .item-TGLD a {
     color: #ffc107;
+}
+
+#requirement {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#osha-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.lois-title {
+    color: #007BFF;
+    text-align: center;
+}
+
+.lois-headings {
+    color: #FF477E;
+    text-align: center;
+}
+
+.lois-info {
+    text-align: center;
+}
+
+.lois-container {
+    height: 400px;
+    margin: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px 10px;
+}
+
+.ld-cell-1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.ld-cell-2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.ld-cell-3 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.ld-cell-4 {
+    grid-column: 2;
+    grid-row: 2;
 }

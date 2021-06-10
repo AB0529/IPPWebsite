@@ -1,15 +1,22 @@
+<!DOCTYPE html>
 <html>
 
-<head> </head>
-<title>Contact form Desing</title>
-<link href="contact.css" rel="stylesheet"></link>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-<link rel="stylesheet" href="./style.css" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>IPPWebsite</title>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<script src="./script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </head>
+
+<style>
+    #Page {
+        background-image: linear-gradient(to right, #136b9e, #13139e);
+    }
+</style>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -27,9 +34,18 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
-                    </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="requirements.html">Requirements</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Requirements
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="OSHA.html">OSHA</a></li>
+                            <li><a class="dropdown-item" href="Internship.html">Internship</a></li>
+                            <li><a class="dropdown-item" href="Capstone.html">Capstone</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,30 +55,23 @@
                             <li><a class="dropdown-item" href="year1.html">Year 1</a></li>
                             <li><a class="dropdown-item" href="year2.html">Year 2</a></li>
                         </ul>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container" style="width: 50%;">
-        <form id="contact" action="./includes/handle_interest_form.php" method="post">
-            <h3>Ask Questions</h3>
-            <h4>Contact us with any questions you have and we will respond</h4>
-            <fieldset>
-                <input placeholder="Your name" type="text" tabindex="1" required autofocus name="name">
-            </fieldset>
-            <fieldset>
-                <input placeholder="Your Email Address" type="email" tabindex="2" required name="email_to">
-            </fieldset>
-            <textarea placeholder="Type your message here...." tabindex="5" required name="message"></textarea>
-            </fieldset>
-            <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-            </fieldset>
-        </form>
+    <script src="script.js"></script>
+    <div id="Page">
+        <h1 class="fact"> OSHA (Occupational Safety and Health Administration)</h1>
+        <img id="osha-img" src="https://www.hearingconservation.org/assets/OSHA%20logo-main_i.jpg" height="100%" weight="500">
+        <p id="requirement">The Occupational Safety and Health Administration is a large regulatory agency of the United States Department of Labor that originally had federal visitorial powers to inspect and examine workplaces. Congress established the agency under the
+            Occupational Safety and Health Act (OSH Act), which President Richard M. Nixon signed into law on December 29, 1970. OSHA's mission is to "assure safe and healthy working conditions for working men and women by setting and enforcing standards
+            and by providing training, outreach, education and assistance". The agency is also charged with enforcing a variety of whistleblower statutes and regulations. OSHA's workplace safety inspections have been shown to reduce injury rates and injury
+            costs without adverse effects to employment, sales, credit ratings, or firm survival.</p>
+        <p id="requirement"> Link: <a href="https://campus.careersafeonline.com/index.k2">https://campus.careersafeonline.com/index.k2</a> </p>
     </div>
 </body>
-
 <footer class="text-center text-lg-start bg-light text-muted">
     <section class="">
         <div class="container text-center text-md-start mt-0">
@@ -86,7 +95,7 @@
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="https://worcesterschools.org/student-support/guidance/" target="_blank">Guidance</a></li>
                         <li><a class="text-muted" href="https://worcesterschools.org/student-support/school-student-safety/bullying-prevention/" target="_blank">Bullying Prevention</a></li>
-                        <li><a class="text-muted" href="https://worcesterschools.org/health-center-hotline/" target="_blank">Health Center Hotline</a></li>
+                        <li><a class="text-muted" ref="https://worcesterschools.org/health-center-hotline/" target="_blank">Health Center Hotline</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">

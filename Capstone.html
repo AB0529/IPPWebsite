@@ -1,15 +1,22 @@
+<!DOCTYPE html>
 <html>
 
-<head> </head>
-<title>Contact form Desing</title>
-<link href="contact.css" rel="stylesheet"></link>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-<link rel="stylesheet" href="./style.css" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>IPPWebsite</title>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<script src="./script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </head>
+
+<style>
+    #Page {
+        background-image: linear-gradient(to right, yellow, blue);
+    }
+</style>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -27,9 +34,18 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
-                    </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="requirements.html">Requirements</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Requirements
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="OSHA.html">OSHA</a></li>
+                            <li><a class="dropdown-item" href="Internship.html">Internship</a></li>
+                            <li><a class="dropdown-item" href="Capstone.html">Capstone</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,30 +55,21 @@
                             <li><a class="dropdown-item" href="year1.html">Year 1</a></li>
                             <li><a class="dropdown-item" href="year2.html">Year 2</a></li>
                         </ul>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container" style="width: 50%;">
-        <form id="contact" action="./includes/handle_interest_form.php" method="post">
-            <h3>Ask Questions</h3>
-            <h4>Contact us with any questions you have and we will respond</h4>
-            <fieldset>
-                <input placeholder="Your name" type="text" tabindex="1" required autofocus name="name">
-            </fieldset>
-            <fieldset>
-                <input placeholder="Your Email Address" type="email" tabindex="2" required name="email_to">
-            </fieldset>
-            <textarea placeholder="Type your message here...." tabindex="5" required name="message"></textarea>
-            </fieldset>
-            <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-            </fieldset>
-        </form>
+    <script src="script.js"></script>
+    <div id="Page">
+        <h1 class="fact"> Capstone </h1>
+        <img id="osha-img" src="https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_2/v1589218788/littlerock/ceqrmugjkezy1pixbssh/CapstonePoster1_1.jpg" height="100%" weight="500">
+        <p id="requirement" style="color: black">Capstone is a program from IPP have, if you don't take internship for second year of the program. Next year, you will take another year for Worcester Tech 1 day/week afterschool. In Capstone program you haf to do some project that come from company
+            gives.
+        </p>
     </div>
 </body>
-
 <footer class="text-center text-lg-start bg-light text-muted">
     <section class="">
         <div class="container text-center text-md-start mt-0">
