@@ -23,7 +23,6 @@ header h1 {
 }
 
 .navbar {
-    height: 100%;
     background: linear-gradient(-40deg, white, white 25%, #007BFF calc(25% + 1px), #007BFF 100%);
 }
 
@@ -346,7 +345,7 @@ button {
 }
 
 .grid-item p {
-    color: #343434;
+    color: rgb(104, 104, 104);
     font-size: 20px;
 }
 
@@ -411,7 +410,7 @@ button {
 }
 
 .lois-container {
-    height: 400px;
+    /* height: 500px; */
     margin: 6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
